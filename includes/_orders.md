@@ -1413,7 +1413,7 @@ Using this method, you can remove a file attached to an order item by customer.
 > Request example
 
 ```http
-DELETE /api/v3/4870020/orders/1234657/items/987653/options/Attach+your+image/files/{fileId}&token=123456789abcd HTTP/1.1
+DELETE /api/v3/4870020/orders/1234657/items/987653/options/Attach+your+image/files/{fileId}?token=123456789abcd HTTP/1.1
 Host: app.ecwid.com
 Content-Type: application/json
 Cache-Control: no-cache
@@ -1421,7 +1421,7 @@ Cache-Control: no-cache
 binary data
 ```
 
-`DELETE https://app.ecwid.com/api/v3/{storeId}/orders/{orderNumber}/items/{itemId}/options/{optionName}?fileName={fileName}token={token}`
+`DELETE https://app.ecwid.com/api/v3/{storeId}/orders/{orderNumber}/items/{itemId}/options/{optionName}/files/{fileId}?token={token}`
 
 Name | Type    | Description
 ---- | ------- | -----------
