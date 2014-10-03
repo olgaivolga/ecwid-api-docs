@@ -1417,8 +1417,6 @@ DELETE /api/v3/4870020/orders/1234657/items/987653/options/Attach+your+image/fil
 Host: app.ecwid.com
 Content-Type: application/json
 Cache-Control: no-cache
-
-binary data
 ```
 
 `DELETE https://app.ecwid.com/api/v3/{storeId}/orders/{orderNumber}/items/{itemId}/options/{optionName}?fileName={fileName}token={token}`
